@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--? Some Meta tags -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--? Title -->
+        <title>Quiz App</title>
+        <!--? CSS link -->
+        <link rel="stylesheet" href="./style.css" />
+        <!--? JavaScript link -->
+        <script src="./script.js" defer></script>
+        <!--? Favicon -->
+        <link rel="icon" href="./ideas.png" type="image/png" />
+    </head>
+    <body>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Question Text</h2>
+                <ul>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            id="a"
+                            class="answer"
+                        />
+                        <label id="a_text" for="a">question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            id="b"
+                            class="answer"
+                        />
+                        <label id="b_text" for="b">question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            id="c"
+                            class="answer"
+                        />
+                        <label id="c_text" for="c">question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            id="d"
+                            class="answer"
+                        />
+                        <label id="d_text" for="d">question</label>
+                    </li>
+                </ul>
+                <button class="button" id="submit">Submit</button>
+            </div>
+        </div>
+    </body>
+</html>
